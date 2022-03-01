@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #1c1c1c;
+  max-width: 800px;
+  margin: auto;
+}
+
+.duck-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+#searchbar {
+  width: 80%;
+  background-color: rgba(169, 169, 169, 0.062);
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.searchbutton {
+  border: 2px solid red;
+}
